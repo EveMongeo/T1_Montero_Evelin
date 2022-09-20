@@ -1,0 +1,59 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+
+<!-- Fig.2.11: lista.html -->
+<!-- Listas anidadas y desordenadas. -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Listas</title>
+    </head>
+
+    <body>
+        <h1>Las mejores caracter&iacute;sticas de Internet</h1>
+
+         <!-- Crear una lista desordenada -->
+         <ul>
+            <li>Puede conocer nuevas personas de pa&iacute;ses de todo 
+                el mundo.</li>
+                <li>
+                    Tiene acceso a los nuevos medios a medida que se hacen p&uacute;blicos:
+
+                    <!-- Esto empieza una lista desordenada anidada, que usa una -->
+                    <!-- viñeta distinta. La lista termina al -->
+                    <!-- cerrar la etiqueta <ul>. --> 
+                    <ul>
+                        <li>Nuevos juegos</li>
+                        <li>Nuevas aplicaciones 
+
+                            <!-- lista ordenada anidada-->
+                            <ol>
+                                <li>Por negocios</li>
+                                <li>Por placer</li>
+                            </ol>
+                        </li><!-- Termina elemento li que inició en el comerntario de lista ordenada anidada y que llama a nuevas aplicaciones. -->
+                        
+                        <li>Noticias las 24 horas</li>
+                        <li>Motores de &uacute;squeda</li>
+                        <li>Compras</li>
+                        <li>Programaci&oacute;n
+
+                            <!-- Otra lista ordenada anidada -->
+                            <ol>
+                                <li>XML</li>
+                                <li>Java</li>
+                                <li>HTML5</li>
+                                <li>JavaScript</li>
+                                <li>Nuevos lenguajes</li>
+                            </ol>
+                        </li> <!-- Termina el elemento li, llamdo programación, que inició en la línea 40 -->
+                    </ul> <!-- Termina la lista anidada de la línea 26 -->
+                </li>
+
+                <li>V&iacute;nculos</li>
+                <li>Mantenerse en contacto con viejos amigos</li>
+                <li>Es la tecnolog&iacute;a del futuro</li>
+         </ul>
+    </body>
+</html>
