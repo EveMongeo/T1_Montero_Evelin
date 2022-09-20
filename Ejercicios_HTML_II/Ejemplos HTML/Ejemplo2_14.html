@@ -1,0 +1,43 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+
+<!-- Fig. 2.14: formulario.html -->
+<!-- Formulario con un campo de texto y campo ocultos. -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Formulario de retroalimentaci&oacute;n</h1>
+        <p>Llene este formulario para ayudarnos
+            a mejorar nuestro sitio.</p>
+
+            <!-- Esta etiqueta empieza el formulario. indica el -->
+            <!-- método de enviar información y la ubicación -->
+            <!-- de la secuencia de comandos de procesamiento del formulario -->
+            <form method="post" action="http://www.deitel.com">
+                <!-- Las entradas ocultas contienen información -->
+                <!-- no visual que también se enviará -->
+                <input type="hidden" name="asunto"
+                value="Formulario de reto alimentaci&oacute;n">
+                <input type="hidden" name="redirigir"
+                value="principal.html">
+
+                <!-- <input type ="text"> inserta un campo de texto -->
+                <p><label>Nombre:
+                    <input name="nombre" type="text" size="25"
+                    maxlength="30">
+                </label></p>
+                <p>
+                    <!-- Los tipos de entrada "submit" y "reset" insertan -->
+                    <!-- botones para enviar y borrar el contenido -->
+                    <!-- del formulario, respectivamente -->
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+    </body>
+</html>
