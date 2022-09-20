@@ -1,0 +1,46 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+<!-- Cree el marcado de HTML5 que produzca la tabla que se muestra en la figura 2.18.
+     Use etiquetas <em> y <strong> según sea necesario. La imagen (camello.png) se 
+     incluye en el directorio de ejemplos del capítulo 2.-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablas</title>
+    </head>
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <h1>Ejemplo de tabla: combinado de filas y columnas</h1>
+
+        <table border = "1">
+            <caption>Tabla ejercicio 2.14</caption>
+
+            <thead>
+                <!-- Los elementos rowspan y colspan combinan el número -->
+                <!-- especificado de celdas en sentdo vertical u horizontal -->
+                <tr>
+                        <!-- Combina 2 columnas -->
+                        <td colspan="2">
+                        <strong><h1>Objetivos</h1></strong>
+                        <ul>
+                            <li>Poder crear tablas con filas y columnas de datos.</li>
+                            <li>Poder controlar la vizualizaci&oacute;n del formato de tablas.</li>
+                            <li>Poder crear y usar formularios.</li>
+                        </ul>
+                        <em>Sí, de la tabla de mi memoria limpiaré lejos todos los expedientes encariñados triviales.</em><br>
+                        William Shakespeare.
+                    </td>
+                    <!-- Combina dos filas -->
+                    <th rowspan="2">
+                        <img src="Ejemplos HTML/Imagenes/camello.png" width="202"
+                        height="302" alt="Imagen del camello con una joroba">
+                    </th>                   
+                </tr>
+            </thead>
+            
+        </table>
+    </body>
+</html>

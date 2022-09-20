@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario 3.5</title>
+    </head>
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <section id="1">
+            <h1>El promedio de la calificaci&oacute;n de los alimentos de la cafeter&iacute;a es:</h1>
+            7 <meter min="1"
+                max="10"
+                value="7">
+            </meter> 10
+        </section>
+        <section id="2">
+            <details>
+                <summary><b>Resultado de la encuesta</b></summary>
+                <p>Se pidi&oacute; a los estudiantes que clasificaran los alimentos de la cafeter&iacute;a.
+                    El promedio fue 7 de 10.</p>                
+            </details>
+        </section>
+        <form method="post" autocomplete="on">
+            <p><label>Primer nombre:
+                <input type="text" id="primerNombre">
+            </label></p>
+            <p><label for="listaEstados">Estados
+                <input type="text" id="listaEstados"
+                placeholder="Nombre de un estado" list="estados"/>
+                <datalist id="estados">
+                    <option value="Puebla"></option>
+                    <option value="Guerrero"></option>
+                    <option value="Baja California"></option>
+                    <option value="Nuevo Le&oacute;n"></option>
+                    <option value="Chihuahua"></option>
+                </datalist>
+            </label></p>
+            <p><label>
+                1 <input type="range"
+                min="1"
+                max="100"> 100
+            </label></p>
+            <p>&lt;form&gt;</p>
+        </form>
+        <section id="3">
+            <p>Se pidi&oacute; a los estudiantes que clasificaran los alimentos de la cafeter&iacute;a en una escala del 1 al 10.
+                El resultado promedio fue <mark>7</mark>.
+            </p>
+        </section>
+    </body>
+</html>

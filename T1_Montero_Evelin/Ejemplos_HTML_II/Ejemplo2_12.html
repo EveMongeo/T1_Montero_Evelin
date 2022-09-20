@@ -1,0 +1,65 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+
+<!-- Fig. 2.12: tabla1.html -->
+<!-- Creación de una tabla básica -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Una tabla de HTML5 simple</title>
+    </head>
+
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <!-- La etiqueta <table> abre una tabla -->
+            <table border="1">
+
+                <!-- La etiqueta <caption> sintetiza el contenido de -->
+                <!-- la tabla (eso ayuda a las personas con discapacidad visual) -->
+                <caption><strong>Tabla de frutas (1era columna) y 
+                    sus precios (2da columna)</strong></caption>
+
+                    <!--La sección <thead> aparece primero en la tabla -->
+                    <!-- Da formato al área del encabezado de la tabla -->    
+                    <thead>
+                        <tr><!-- <tr> inserta una fila en la tabla -->
+                            <th>Fruta</th><!-- Inserta una celda de encabezado -->
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+
+                    <!-- La sección <tfoot> aparece al último en la tabla -->
+                    <!-- Da formato al pie de la tabla -->
+                    <tfoot>
+                        <tr>
+                            <th>Total</th>
+                            <th>$3.75</th>
+                        </tr>
+                    </tfoot>
+
+                    <!-- Todo el contenido de la tabla está encerrado -->
+                    <!-- Dentro del elemento <tbody> -->
+                    <tbody>
+                        <tr>
+                            <td>Manzana</td> <!-- Inserta una celda de datos -->
+                            <td>$0.25</td>
+                        </tr>
+                        <tr>
+                            <td>Naranja</td>
+                            <td>$0.50</td>
+                        </tr>
+                        <tr>
+                            <td>Pl&aacute;tano</td>
+                            <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pi&ntilde;a</td>
+                            <td>$2.00</td>
+                        </tr>
+                    </tbody>
+            </table>
+    </body>
+</html>

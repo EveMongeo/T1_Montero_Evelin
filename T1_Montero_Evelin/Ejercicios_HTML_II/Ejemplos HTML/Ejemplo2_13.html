@@ -1,0 +1,57 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablas</title>
+    </head>
+
+    <body>
+        <h1>Ejemplo de tabla: combinado de filas y columnas</h1>
+
+        <table border = "1">
+            <caption>Una tabla de muestra m&aacute;s compleja</caption>
+
+            <thead>
+                <!-- Los elementos rowspan y colspan combinan el número -->
+                <!-- especificado de celdas en sentdo vertical u horizontal -->
+                <tr>
+                    <!-- Combina dos filas -->
+                    <th rowspan="2">
+                        <img src="Imagenes/camello.png" width="205"
+                        height="167" alt="Imagen del camello con una joroba">
+                    </th>
+
+                    <!-- Combina 4 columnas -->
+                    <th colspan="4">
+                        <strong>Comparaci&oacute;n de cam&eacute;lidos</strong><br>
+                        Fecha aproximada: 10/2011
+                    </th>
+                </tr>
+                <tr>
+                    <th># jorobas</th>
+                    <th>Regi&oacute;n ind&iacute;gena</th>
+                    <th>Escupe?</th>
+                    <th>Produce lana?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Camellos (bactrianos)</th>
+                    <td>2</td>
+                    <td>Africa/Asia</td>
+                    <td>S&iacute;</td>
+                    <td>S&iacute;</td>
+                </tr>
+                <tr>
+                    <th>Llamas</th>
+                    <td>1</td>
+                    <td>Monta&ntilde;a de los Andes</td>
+                    <td>S&iacute;</td>
+                    <td>S&iacute;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+
+<!-- Fig. 2.116: interna.html -->
+<!-- Vinculación interna -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>V&iacute;nculos internos</title>
+    </head>
+
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <!-- El atributo id crea un destino de hipervínculo interno -->
+        <h1 id="caracteristicas">Las mejores caracter&iacute;sticas de Internet</h1>
+
+        <!-- La dirección de un vínculo interno es "#id" -->
+        <p><a href="#insectos">Ir a <em>Insectos favoritos</em></a></p>
+
+        <ul>
+            <li>Puede conocer pesonas de pa&iacute;ses
+                de todo el mundo.</li>
+            <li>Tiene acceso a los medio a medida que se vuelven p&uacute;blicos:
+                <ul>
+                    <li>Nuevos juegos</li>
+                    <li>Nuevas aplicaciones
+                        <ul>
+                            <li>Por negocios</li>
+                            <li>Por placer</li>
+                        </ul>
+                    </li>
+                    <li>Noticias de todo el mundo</li>
+                    <li>Motores de b&uacute;squeda</li>
+                    <li>Compras</li>
+                    <li>Programaci&oacute;n
+                        <ul>
+                            <li>HTML5</li>
+                            <li>Java</li>
+                            <li>Dinamic HTML</li>
+                            <li>Secuencias de comandos</li>
+                            <li>Nuevos lenguajes</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>V&iacute;nculos</li>
+            <li>Mantenerse encontacto con viejos amigos</li>
+            <li>Es la tecnolog&iacute;a del futuro</li>
+        </ul>
+
+        <!-- El atributo id crea un destino de hipervínculo interno -->
+        <h1 id="insectos">Mis 3 insectos favoritos</h1>
+        <p>
+            <!-- Hipervínculo interno a las características -->
+            <a href="#caracteristicas">Ir a <em>Caracter&iacute;sticas favoritas</em></a>
+        </p>
+        <ol>
+            <li>Luci&eacute;rnaga</li>
+            <li>Hormiga roja</li>
+            <li>Abejorro</li>
+        </ol>
+    </body>
+</html>

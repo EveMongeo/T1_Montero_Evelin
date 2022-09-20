@@ -1,0 +1,86 @@
+<!-- Evelin Montero Gómez | 197O02387 -->
+<!-- Programación web séptimo semestre -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>M&aacute;s formularios</title>
+    </head>
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <h1>Formulario de retroalimentaci&oacute;n 2.16</h1>
+        <p>Llene este formulario para ayudarnos
+            a mejorar nuestro sitio.</p>
+            <!-- Enviar a DEITEL -->
+        <form method="post" action="http://www.deitel.com">
+
+            <input type="hidden" name="destinatario"
+            value="deitel@deitel.com">
+            <input type="hidden" name="asunto"
+            value="Formulario de retroalimentaci&oacute;n">
+            <input type="hidden" name="redirigir"
+            value="principal.html">
+            <!-- Casilla de nombre -->
+            <p><label>Nombre:
+                <input name="nombre" type="text" size="25">
+            </label></p>
+            <!-- Casilla de correo electrónico -->
+            <p><label>Direcci&oacute;n de correo electr&oacute;nico:
+                <input name="email" type="password" size="25">
+            </label></p>
+            <!-- Casillas de verificación -->
+            <p>
+                <strong>Cosas que le gustaron:</strong><br>
+
+                <label>Campus
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Campus"></label>
+                <label>Estudiantes
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Estudiantes"></label>
+                <label>Ubicaci&oacute;n
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Ubicacion"></label>
+                <label>Ambiente
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Ambiente"></label>
+                <label>Dormitorios
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Dormitorios"></label>
+                <label>Deportes
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Deportes"></label>
+            </p>
+            <!-- Botones de opción -->
+            <p>
+                <strong>C&oacute;mo supo acerca de nuestra universidad:</strong><br>
+
+                <label>Amigos
+                    <input name="comositio" type="radio"
+                    value="amigos"checked></label>
+                <label>Televisi&oacute;n
+                    <input name="comositio" type="radio"
+                    value="television"></label>
+                <label>Internet
+                    <input name="comositio" type="radio"
+                    value="internet"></label>
+                <label>Otro
+                    <input name="comositio" type="radio"
+                    value="otro"></label>
+            </p>
+
+            <!-- Área de texto para comentarios adicionales -->
+            <p><label>Comentarios:<br>
+                <textarea name="comentarios"
+                rows="4" cols="36">Escriba aquí los comentarios</textarea>
+            </label></p>
+            <!-- Botones Enviar y Borrar -->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!-- Ejercicio. 3.6: autocomplete.html -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario 3.6</title>
+    </head>
+    <body>
+        <a href="../index.html"><label>
+            <input type="submit" name="inicio" id="menu" value="Inicio" style="font-size: 16px;">
+            </label></a>
+        <h1>Formulario 3.6</h1>
+        <p>Ingrese los siguientes datos:</p>
+        <!-- Activar autocomplete -->
+        <form method="post" autocomplete="on">
+            <p><label>Primer nombre:
+                <input type="text" id="primerNombre"
+                placeholder="Primer nombre"/>(Primer nombre)
+            </label></p>
+            <p><label>Apellido:
+                <input type="text" id="apellido"
+                placeholder="Apellido"/>(Apellido)
+            </label></p>
+            <p><label>Email:
+                <input type="email" id="email"
+                placeholder="nombre@dominio.com"/>(nombre@dominio.com)
+            </label></p>
+            <p>(Opcional)</p>
+            <p><label for="años">Año de la carrera en curso:
+                <input type="text" id="anio" placeholder="Seleccione un a&ntilde;o" list="anios"/>
+                <datalist id="anios">
+                    <option value="Primero">
+                    <option value="Segundo">
+                    <option value="Tercero">
+                    <option value="Cuarto">
+                    <option value="Quinto">
+                    <option value="Sexto">
+                </datalist>
+            </label></p>
+            <p><input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/></p>
+        </form>
+    </body>
+</html>
